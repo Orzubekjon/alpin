@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(./fonts/inter/Inter-Regular.otf);
+}
+
+.contanier {
+    width: 1440px;
+    height: 779px;
+    margin: 0 auto;
+    border: 3px solid rgb(0, 0, 0);
+    background-image: url(./Imeges/Katta-imges1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbor {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.navbor-brand {
+    width: 20%;
+}
+
+.navbor-texs {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbor-texs li {
+    display: flex;
+    list-style: none;
+
+}
+
+.navbor-texs li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbor-texs li i {
+    color: white;
+}
+
+.contanier-main {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.decoreshin {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.decoreshin h1 {
+    width: auto;
+    height: 38vh;
+    padding-top: 4rem;
+    line-height: 50px;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 88px;
+    color: #FFFFFF;
+}
+
+.decoreshin p {
+    width: auto;
+    height: 30vh;
+    line-height: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+.decoreshin button {
+    position: absolute;
+    width: 172px;
+    height: 60px;
+    background: #22b83e9f;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.imges1 {
+    float: right;
+}
+
+.list-img {
+    width: 310px;
+    height: 410px;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.list-img img {
+    width: 90%;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+.imges1 {
+    width: 50%;
+    margin: 0 auto;
+    /* display: flex; */
+}
